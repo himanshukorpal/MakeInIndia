@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  border-bottom: 1px solid black;
+  padding: 0 20px;
+  padding-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  /* flex: 1;
+  text-align: center; */
+  margin: 0 auto;
+}
+
+.icon {
+  width: 50px; /* Adjust size */
+  height: auto;
+}
+
+h1 {
+  font-family: "Cinzel", serif; /* Royalty-inspired font */
+  color: #2e3192;
+}
+
+h1 span {
+  color: #d4af37; /* Gold */
+}
+/* .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  
+  padding-bottom: 3rem;
+} */
+
+.navbar {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Fotter */
+
+.fotter-container {
+  margin-top: 100px;
+}
+
+.social-links-fotter {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.copyright {
+  margin-top: 30px;
+  text-align: center;
+}

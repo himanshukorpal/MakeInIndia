@@ -1,0 +1,33 @@
+{
+  "name": "makeinindia",
+  "version": "1.0.0",
+  "description": "Jodhpur local Handicrafts Website ",
+  "keywords": [
+    "MakeInIndia"
+  ],
+  "homepage": "https://github.com/himanshukorpal/MakeInIndia#readme",
+  "bugs": {
+    "url": "https://github.com/himanshukorpal/MakeInIndia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshukorpal/MakeInIndia.git"
+  },
+  "license": "ISC",
+  "author": "Himanshu Korpal",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.1"
+  },
+  "dependencies": {
+    "@tailwpostcssindcss/": "^4.1.7",
+    "autoprefixer": "^10.4.21",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.7"
+  }
+}
